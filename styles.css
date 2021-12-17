@@ -1,0 +1,403 @@
+/*styles*/
+
+
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+  top: 0; 
+  width: 100%; 
+}
+
+/* Style the header links */
+.header a {
+    font-family: 'Viga', sans-serif;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a.logo:hover {
+  background-color: #808080;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #808080;
+  color: white;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  padding-right: 7%;
+}
+
+.header-right a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*intro*/
+.intro{
+    
+    padding-top: 300px;
+    padding-bottom: 300px;
+    
+}
+.hello{
+    font-family: 'Viga', sans-serif;
+    font-size: 75px;
+    text-align: Center;
+
+}
+
+.hello-name{
+    font-family: 'Viga', sans-serif;
+    font-size: 75px;
+    text-align: Center;
+}
+
+.hello-intro{
+    font-family: 'Viga', serif;
+    font-size: 25px;
+    color: white;
+    text-align: Center;
+}
+
+.fade-in-text {
+    padding-left: 30%
+    display: inline-block;
+    font-family: 'Viga', sans-serif;
+    font-size: 75px;
+    text-align: Center;
+    color: white;
+  animation: fadeIn linear 4s;
+  -webkit-animation: fadeIn linear 4s;
+  -moz-animation: fadeIn linear 4s;
+  -o-animation: fadeIn linear 4s;
+  -ms-animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/*body*/
+.sections{
+    position: relative;
+    padding-top: 200px;
+}
+
+
+/*others*/
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.pink {
+  
+  background-color: lightseagreen;
+}
+.red {
+  
+  background-color: cornflowerblue;
+}
+.blue {
+  background-color: SteelBlue;
+
+}
+.green {
+  background-color: darkslateblue;
+}
+
+/*about*/
+
+.about{
+    text-align: center;
+    left: 150px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+
+.about-section{
+    padding-bottom: 300px;
+}
+.about-column{
+    padding-left: 20px;
+    padding-top: 100px;
+    font-size: 25px;
+    color: white;
+}
+
+.about-column1{
+    padding-left: 50px;
+    
+    font-size: 25px;
+    color: white;
+}
+
+.about-image{
+    padding-top: 50px;
+
+}
+.profile-image{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+
+/*project*/
+.project{
+    text-align: center;
+    left: 150px;
+    color: white;
+}
+
+
+.project-section{
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+.project-title{
+    padding-top: 100px;
+    padding-left: 280px;
+    color: white;
+}
+
+.project-imageholder{
+  min-height: 500px;
+    padding-top: 50px;
+  
+}
+
+.project-image{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 0 70% 0 0; 
+}
+
+.project-image-1{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 0 0 70% 0; 
+}
+
+.project-image:hover{
+    width: 400px;
+    height: 400px;
+    border-radius: 0 0 0 0; 
+    transition-duration: 0.3s;
+
+}
+
+.project-image-1:hover{
+    width: 400px;
+    height: 400px;
+    border-radius: 0 0 0 0; 
+    transition-duration: 0.3s;
+}
+
+/*contacts*/
+
+.contact{
+    text-align: center;
+    left: 150px;
+    color: white;
+}
+
+.contact-section{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.contact-desc{
+    font-size: 40px;
+    font-family: 'Viga', sans-serif;
+}
+
+.contact-desc{
+    font-size: 35px;
+    font-family: 'Viga', sans-serif;
+}
+
+
+
+
+
+.button-mail{
+    border: none;
+    font-size: 45px;
+    font-family: 'Viga', sans-serif;
+    border-radius: 10px;
+
+}
+
+.button-text{
+    color: black;
+    font-size: 45px;
+    font-family: 'Viga', sans-serif;
+    text-decoration: none;
+}
+
+.button-mail:hover{
+
+    background-color: grey;
+    color: white;
+    transition-duration: 0.1s;
+}
+
+.button-text:hover{
+
+    background-color: grey;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+/*social media*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:50%;
+}
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: white;
+    color: white#3B5998;
+    transition-duration: 0.3s;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-twitter:hover {
+    background: white;
+    color: #55ACEE;
+    transition-duration: 0.3s;
+}
+
+
+
+
+
+/*flex*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+ 
+    font-size: 30px;
+    
+    border: 1px solid green;
+
+}
+
+
+
+.column {
+
+  width: auto;
+  padding: 5px;
+}
+
+/*footer*/
+.footer {
+  text-align: center;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+  bottom: 0; 
+  width: 100%; 
+  font-family: 'Viga', sans-serif;
+}
+
+h2,h1{
+    font-family: 'Viga', sans-serif;
+}
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
